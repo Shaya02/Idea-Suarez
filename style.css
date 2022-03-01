@@ -2,27 +2,21 @@
     margin:0;
     padding:0;
 }
-body{
-    background-color:rgb(243, 230, 203);
-}
-header{
-    display:flex;
-    justify-content: space-between;
-    background-color:rgb(201, 129, 140);
-    color:blanchedalmond;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background:linear-gradient(to right, rgba(201,129,140),rgba(199, 145, 145, 0.5),rgba(255,255,255))
-}
 
-header span{
-    display:none;
+h5{
+    color:rgb(201, 129, 140);
 }
-header nav ul{
+.navbar{
+background:linear-gradient(to right, rgb(224, 181, 187),rgba(209, 175, 175, 0.5),rgba(255,255,255))
+}
+.navbar-toggler{
+    color:rgb(201, 129, 140);
+}
+.navbar.nav{
     list-style: none;
     display:flex;
 }
-header nav ul li{
+.nav.item{
     font-size: 15px;
     font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -31,55 +25,18 @@ header nav ul li{
     border-radius: 15px;
     background-color:rgb(165, 107, 117);
     cursor:pointer;
-    
 }
- 
+ .nav-link{
+     color:rgb(219, 81, 104);
+ }
+
 .hero{
     background-image:url(./images/macarons-5164a4e1e484d.jpg);
     background-size: cover;
     background-position: center;
-    height: 200px;
-    color:blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 300px;
+      
 }
-
-.hero_description{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    color:blanchedalmond;
-
-}
-
-.novedades{
-    max-width:1200px ;
-    display: grid ;
-    grid-template-columns: repeat(4,1fr);
-    gap:20px; 
-    margin-top:60px;
-    margin-bottom: 40px;
-
-}
-
-.novedades_item{
-    width: 280px;
-    height: 230px;
-    border-radius: 20px;
-    border-style:dashed;
-    border-color: rgb(201, 129, 140);
-    cursor: pointer;
-    transition:all 500ms ease;
-    
-}
-
-.novedades_item:hover{
-    transform:scale(1.2);
-}
-
 
 
 .novedades__titulo{
@@ -87,38 +44,24 @@ header nav ul li{
     grid-area:1/1/3/3;
     place-self: center;
     color:rgb(201, 129, 140);
-    font-size: 30px;
+    font-size: 40px;
 }
 
-a[href="/index.html"]{
-    color: rgb(240, 184, 193);
-    text-decoration: none;
+.novedades-item{
     cursor:pointer;
-
-    }
-    a[href="/pages/mistrabajos.html"]{
-    color: rgb(240, 184,193);
-    text-decoration: none;
-     cursor:pointer;
-        }
-     a[href="/pages/contacto.html"]{
-     color: rgb(240, 184,193);
-    text-decoration: none;
-     cursor:pointer;
-            }
-            a[href="/pages/precios.html"]{
-                color: rgb(240, 184,193);
-                text-decoration: none;
-                cursor:pointer;
-                }
-                a[href="/pages/Sobremi.html"]{
-                    color: rgb(240, 184,193);
-                    text-decoration: none;
-                    cursor:pointer;
-                    }
+    width: 280px;
+    height: 230px;
+    border-radius: 20px;
+    transition:all 500ms ease;
+  
 
 
 
+}
+
+.novedades-item:hover{
+    transform:scale(1.2);
+}
 .trabajos{
 display:grid;
 grid-template-columns: repeat(3, 2fr);
@@ -131,45 +74,44 @@ border-radius: 20px;
 border-style:dashed;
 border-color: rgb(201, 129, 140);
 }
+
 .producto{
     font-size: 20px;
 }
 
+ table {
+width: 500px;
+ height: 400px;
+  margin-top: 50px;
+margin-bottom: 100px;
+margin-left:150px;
+ border-color: gray;
+border-style: solid;   
+ }
 
-                   
-            
-                 table {
-                     width: 500px;
-                     height: 400px;
-                     margin-top: 50px;
-                     margin-bottom: 100px;
-                     margin-left:150px;
+th{
+ color:rgb(201, 129, 140);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+color:rgb(165, 107, 117);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.precio{
+color:rgb(201, 129, 140);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
                 
-                            border-color: gray;
-                            border-style: solid;   
-                        }
-                th{
-                    color:rgb(201, 129, 140);
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                }
-                td{
-                   
-                    color:rgb(165, 107, 117);
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    
-                }
-                .precio{
-                    color:rgb(201, 129, 140);
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                }
-                
-            tr td{
-         text-align: center;
-            }
+ tr td{
+text-align: center;
+    }
                
 .icono{
-    margin-top:20px;
+ margin-top:20px;
 }
+
 .informacion{
     border-radius: 10px;
     background-color:rgb(165, 107, 117); 
@@ -190,94 +132,54 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
                         color:rgb(201, 129, 140);
                         margin-top: 10px;
                     }
-                    label{ 
+                         li{ 
+                        display:flex;
+                        flex-direction:column;
+                        justify-content: center;
+                        align-items:middle;
                         color: rgb(201, 129, 140);
-                     
-         
+                        list-style: none;
                     }
-                    p{
+                    
+                    h3{
                         color: rgb(165, 107, 117);
                         margin-top: 15px;
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: middle;
                     }
-                   
-         input{
-             cursor:pointer;
-         }
-         select{
-             cursor: pointer;
-             border-style: double;
-             border-color: dimgray;
-             border-radius: 5px;
-             
-         }
-                    button{
-                        border-style: double;
-                        border-radius: 5px;
-                        border-color: dimgray;
-                        cursor: pointer;
-                        font-family: Georgia, 'Times New Roman', Times, serif;
-                     
-                    }
+                  
+                
          
-
-
-
 footer{
-
     display:flex;
     justify-content: space-between;
-    background-color:rgb(201, 129, 140);
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    margin-top: 300px;
-    background:linear-gradient(to right, rgba(201,129,140),rgba(199, 145, 145, 0.5),rgba(255,255,255))
-  
-    
-}
-.Rrss{
-    display:flex;
-    justify-content: space-between;
-    color:rgb(235, 209, 172);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+background-color:rgb(201, 129, 140); font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+margin-top: 300px;
+background:linear-gradient(to right, rgb(224, 181, 187),rgba(209, 175, 175, 0.5),rgba(255,255,255))
+ }
+               
+ h5{
+     color:rgb(219, 81, 104);
 
-.Contact{
-    display:flex;
-    justify-content: space-between;
-    color:rgb(235, 209, 172);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor:auto;
-}
-
-footer nav ol{
-    list-style: none;
-    display:flex;
-       color:rgb(235, 209, 172);
-  
-}
-
-footer nav ol li{
-     list-style: none;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    padding:0px 8px;
-    margin: 0 3px;
-    color:rgb(235, 209, 172);
-    cursor:pointer;
-
-}
-    
+ }
 a[href="http://www.facebook.com"]{
     text-decoration: none;
-   color:rgb(240, 180, 198);
+   color:rgb(201, 129, 140);
     
 }
 a[href="http://www.instagram.com"]{
     text-decoration: none;
-      color:rgb(240, 180, 198);
+      color:rgb(201, 129, 140);
      
+}
+
+.contactos{
+    text-decoration: none;
+    color:rgb(201, 129, 140);
 }
 
                     @media(max-width: 760px) {
@@ -286,7 +188,8 @@ a[href="http://www.instagram.com"]{
                         }
                     }
 
-                    @media(max-width:500px){
+                          
+                    @media(max-width:550px){
                         header nav{
                             display:none;
                         }
@@ -301,5 +204,4 @@ a[href="http://www.instagram.com"]{
                         body{
                         font-size:130% ;
                     }
-                    
-            }
+                }

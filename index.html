@@ -11,60 +11,149 @@
 
 </head>
 <body>
- <header>
-     <h5>MENU PRINCIPAL </h5>
-     <nav>
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/pages/mistrabajos.html">Mis trabajos</a></li>
-            <li><a href="/pages/precios.html">Precios</a></li>
-            <li><a href="/pages/Sobremi.html">Sobre mi</a></li>
-            <li><a href="/pages/contacto.html">Contacto</a></li>
-              </ul>
-        
-     </nav>
-     <span>🍔</span>
- </header>   
+    <header>
+        <nav class="navbar navbar-expand-lg"> 
+            <div class="container">
+                <h5 class="mb-0" >MENU PRINCIPAL </h5>
+                <button 
+                type="button" 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"  
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> <a  class="nav-link" href="/index.html">Inicio</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="/pages/mistrabajos.html">Mis trabajos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/pages/precios.html">Precios</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="./pages/Sobremi.html">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/pages/contacto.html">Contacto</a></li>
+                          </ul>
+                        
+                </div>
+                </div>
+        </nav>
+    </header>
+
  <main>
-    <section class="hero">
-    <h1>PINKA</h1>
-    <p class="hero_description"> Postres, desayunos y meriendas, hecho con muchisimo amor.
+    <section class=" hero text-light d-flex  flex-column justify-content-center align-items-center">
+    <h1 class="display-1">PINKA</h1>
+    <p class="lead text-light"> Postres, desayunos y meriendas, hechos con muchisimo amor.
     </p>
     
     
     </section>
     </main>
     
-    <section class="novedades">
-        <h3 class="novedades__titulo"> Novedades 🎀</h3>
-        <img class="novedades_item" src="./images/novedades1.jpeg" alt="opciones variadas"/>
-        <img  class="novedades_item" src="./images/novedades2.jpg" alt="brownie con dulce de leche"/>
-        <img  class="novedades_item" src="./images/novedades3.jpg" alt="caja de masas secas"/>
-        <img  class="novedades_item" src="./images/novedades 4.jpg" alt="desayunos personalizados "/>
+    <section class="container mt-5 ">
+        <div class="row gy-3">
+            <div class="col-sm-12 col-md-6 d-flex"> 
+                <h3 class="novedades__titulo"> Novedades 🎀</h3>
+            </div>
+
+            <div class="col-sm-12 col-md-6 d-flex">
+                <div class="row g-4">  
+                    <div class="col-sm-12 col-lg-6">
+                    <img class="novedades-item" src="./images/novedades1.jpeg" alt="opciones variadas"/>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img  class="novedades-item" src="./images/novedades2.jpg" alt="brownie con dulce de leche"/>
+                </div>
+                <div class="col-sm-12 col-lg-6"> 
+                    <img  class="novedades-item" src="./images/novedades3.jpg" alt="caja de masas secas"/>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img  class="novedades-item " src="./images/novedades 4.jpg" alt="desayunos personalizados "/>
+                </div>
+
+                </div>
+               
+
+        </div>
+         
     </section>
 
 
 
 
 
-    <footer>
-        <nav>
-            <h4 class="Rrss">Redes sociales</h4>
-            <ol>
-             <li> <a href="http://www.facebook.com"> Facebook: ------</li>
-             <li><a href="http://www.instagram.com"> Instagram: -----</li>
-            </ol>
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+   
+    <div class="container text-center text-md-left">
+  
+ 
+      <div class="row">
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <div class="col-md-2 mx-auto">
+  
+         
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Redes Sociales</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="http://www.facebook.com">Facebook:</a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com">Instagram:</a>
+            </li>
+            
+          </ul>
+  
+        </div>
+      
+        <hr class="clearfix w-100 d-md-none">
+  
+      
+        <div class="col-md-2 mx-auto">
+  
+          
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacto</h5>
+  
+          <ul class="list-unstyled">
+            <li class="contactos">
+              Telefono:
+            </li>
+            <li class="contactos">
+              Direccion:
+            </li>
+            <li class="contactos">
+              Mail:
+            </li>
+           
+          </ul>
+  
+        </div>
+      
+    </div>
     
-           <h4 class="Contact"> Contactos </h4>
-            <ol>
-                <li>Telefono: 095xxx</li>
-                <li>Direccion: Av del Parque xxx</li>
-                <li>Mail: xxx@xxx</li>
-            </ol>
-        </nav>
+  
+    <hr>
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Registrate para recibir novedades</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Registrarse!</a>
+      </li>
+    </ul>
     
-    </footer>
-    
+  
+    <hr>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> Pinka - Uruguay</a>
+    </div>
+  
+  
+  </footer>
+ 
 
 
 </body>
