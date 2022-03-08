@@ -1,0 +1,26 @@
+@media(max-width: 760px) {
+    body{
+        font-size: 150%;
+    }
+    header span{
+        color:palevioletred;   
+    }
+}
+
+      
+@media(max-width:550px){
+    header nav{
+        display:none;
+    }
+
+    header span{
+        display:inline-block;
+        color:palevioletred;
+    }
+}
+
+                        @media(max-width:420px) {
+                            body{
+                            font-size:130% ;
+                        }
+                    }

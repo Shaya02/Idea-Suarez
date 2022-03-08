@@ -1,0 +1,38 @@
+header{
+    background:linear-gradient(to left, rgb(224, 181, 187),rgba(209, 175, 175, 0.5),
+    rgba(255,255,255));
+}
+
+nav{
+    color:rgb(201, 129, 140); 
+
+        ul{
+        list-style: none;
+        display:flex;
+        align-items: center;
+    
+            li{
+            font-family:'Poppins', sans-serif ;
+            font-size: 15px;
+            color:rgb(201, 129, 140);
+            padding:5px 14px;
+            margin: 0 3px;
+            cursor:pointer;
+            list-style: none;
+
+               a{ 
+                   list-style: none;
+                   text-decoration: none;
+                   font-family:'Poppins', sans-serif;
+         font-size: 18px;
+         color:rgb(201, 129, 140);
+
+             &:hover
+             {
+             color:rgb(212, 106, 131);
+            }
+
+            }
+        }
+    }
+}

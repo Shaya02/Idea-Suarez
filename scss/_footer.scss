@@ -1,0 +1,31 @@
+footer
+{
+    display:flex;
+    justify-content: space-between;
+background-color:rgb(201, 129, 140); font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+margin-top: 300px;
+background:linear-gradient(to right, rgb(224, 181, 187),rgba(209, 175, 175, 0.5),rgba(255,255,255))
+ }
+               
+ h5{
+     color:rgb(219, 81, 104);
+
+ }
+a[href="http://www.facebook.com"]{
+    text-decoration: none;
+   color:rgb(201, 129, 140);    
+}
+
+a[href="http://www.instagram.com"]{
+    text-decoration: none;
+      color:rgb(201, 129, 140);
+     
+}
+
+.contactos{
+    text-decoration: none;
+    color:rgb(201, 129, 140);
+}
+
