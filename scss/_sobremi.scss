@@ -1,7 +1,11 @@
 
  .container-all{
     max-width: 1000px;
-    margin:auto;
+    margin-bottom:auto;
+    margin-top:10px;
+    margin-left:50px;
+    margin-right: 20px;
+    margin-bottom: 40px;
     padding:60px;
     text-align: center;
     color:rgb(201, 129, 140);
@@ -10,8 +14,11 @@
      font-size: 20px;
 
      img{
+        @include prueba(rgb(201, 129, 140));
             margin-top: 80px;
-            margin-left:20px;
+            margin-left:50px;
+            margin-right: 20px;
+            margin-bottom: 40px;
             width: 300px;
             height: 400px;
             

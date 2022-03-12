@@ -1,6 +1,5 @@
 h2{
-    color:rgb(201, 129, 140);
-    margin-top: 10px;
+   @extend.titulos;
 }
 li{ 
     display:flex;

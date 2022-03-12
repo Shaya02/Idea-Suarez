@@ -1,0 +1,40 @@
+
+
+
+
+
+.titulos {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Playfair Display';
+    color:rgb(201, 129, 140);
+  }
+
+.contacto { display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:middle;
+}
+
+@mixin prueba($color){
+  cursor:pointer;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(201, 129, 140) $color;
+}
+
+$mapTest:(
+  enviar: #c92d8f,
+  borrar: rgb(201, 129, 140),
+  volver:  rgb(204, 134, 145),
+);
+@each $rs, $color in $mapTest{
+  .btn-#{$rs} {
+  background-color: $color;
+  border-radius: 5px;
+  color:rgb(245, 227, 227);
+  padding:10px;
+
+}
+}

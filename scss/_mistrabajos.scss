@@ -1,11 +1,13 @@
 .display-5{
-    margin-top:40px;
-    color:rgb(201, 129, 140);
+ @extend.titulos;
 }
 .card-group{
     margin-top: 30px;
     column-gap: 15px;
     
+}
+.card-text{
+    color:dimgray;
 }
 .card-img-top{
 width:100%;

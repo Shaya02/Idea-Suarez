@@ -15,10 +15,11 @@
 }
 
 .novedades-item{
-    cursor:pointer;
+    @include prueba (rgb(201, 129, 140));
+  
     width: 280px;
     height: 230px;
-    border-radius: 20px;
+  
     transition:all 500ms ease;
 }
 
@@ -27,3 +28,6 @@
 }
 
 
+svg{
+    stroke:rgb(201,129,140);
+}
