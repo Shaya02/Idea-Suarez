@@ -1,5 +1,9 @@
-
-
+$ColorPrincipal:rgb(201, 129, 140);
+$ColorSecundario:rgb(219, 81, 104);
+$ColorTerciario:rgb(212, 106, 131);
+$ColorBackGround: rgb(238, 214, 218);
+$ColorLista:rgb(204, 134, 145);
+$ColorExtra:rgb(165, 107, 117);
 
 
 
@@ -15,13 +19,6 @@
     flex-direction:column;
     justify-content: center;
     align-items:middle;
-}
-
-@mixin prueba($color){
-  cursor:pointer;
-  border-radius: 20px;
-  border-style: solid;
-  border-color: rgb(201, 129, 140) $color;
 }
 
 $mapTest:(

@@ -6,12 +6,12 @@ li{
     flex-direction:column;
     justify-content: center;
     align-items:middle;
-    color: rgb(204, 134, 145);
+    color:$ColorLista;
     list-style: none;
 }
 
 h3{
-    color: rgb(165, 107, 117);
+    color: $ColorExtra;
     margin-top: 15px;
     display:flex;
     flex-direction: column;

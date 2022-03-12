@@ -79,10 +79,6 @@ nav ul li a:hover {
   body {
     font-size: 150%;
   }
-
-  header span {
-    color: palevioletred;
-  }
 }
 @media (max-width: 550px) {
   header nav {
@@ -91,7 +87,6 @@ nav ul li a:hover {
 
   header span {
     display: inline-block;
-    color: palevioletred;
   }
 }
 @media (max-width: 420px) {
@@ -128,17 +123,15 @@ h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   grid-area: 1/1/3/3;
   place-self: center;
-  color: #db5168;
-  font-size: 40px;
+  color: #c9818c;
+  font-size: 50px;
 }
 
 .novedades-item {
   cursor: pointer;
-  border-radius: 20px;
-  border-style: solid;
-  border-color: #c9818c #c9818c;
   width: 280px;
   height: 230px;
+  border-radius: 20px;
   transition: all 500ms ease;
 }
 
@@ -165,14 +158,20 @@ h5 {
   color: #db5168;
 }
 
-a[href="http://www.facebook.com"] {
+a[href="http://www.facebook.com/pinkaa.uy"] {
   text-decoration: none;
   color: #c9818c;
 }
+a[href="http://www.facebook.com/pinkaa.uy"]:hover {
+  color: #db5168;
+}
 
-a[href="http://www.instagram.com"] {
+a[href="http://www.instagram.com/pinkaa.uy"] {
   text-decoration: none;
   color: #c9818c;
+}
+a[href="http://www.instagram.com/pinkaa.uy"]:hover {
+  color: #db5168;
 }
 
 .contactos {
@@ -213,10 +212,7 @@ a[href="http://www.instagram.com"] {
   font-size: 20px;
 }
 .container-all img {
-  cursor: pointer;
   border-radius: 20px;
-  border-style: solid;
-  border-color: #c9818c #c9818c;
   margin-top: 80px;
   margin-left: 50px;
   margin-right: 20px;
@@ -229,23 +225,28 @@ a[href="http://www.instagram.com"] {
   margin: 50px 100px;
   background-color: antiquewhite;
   border-style: solid;
-  border-color: #c98c81;
+  border-color: #c9818c;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+}
+
+.list-group-items {
+  font-size: 30px;
+  color: #c9818c;
+}
+.list-group-items:hover {
+  transform: scale(1.2);
+  text-align: center;
 }
 
 .list-group-item {
-  font-size: 25px;
-  color: #c98c81;
-  display: flex;
-  justify-content: between;
-  align-items: center;
+  font-size: 30px;
+  color: #c9818c;
+  background-color: antiquewhite;
+  text-align: center;
 }
-
-.badge {
-  background-color: #a03e52;
-}
-.badge:hover {
+.list-group-item:hover {
   transform: scale(1.2);
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

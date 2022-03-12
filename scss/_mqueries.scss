@@ -2,9 +2,6 @@
     body{
         font-size: 150%;
     }
-    header span{
-        color:palevioletred;   
-    }
 }
 
       
@@ -15,11 +12,12 @@
 
     header span{
         display:inline-block;
-        color:palevioletred;
+        
     }
 }
-                        @media(max-width:420px) {
-                            body{
-                            font-size:130% ;
-                        }
-                    }
+
+  @media(max-width:420px) {
+ body{
+  font-size:130% ;
+ }
+  }

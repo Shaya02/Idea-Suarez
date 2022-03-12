@@ -2,7 +2,8 @@ footer
 {
     display:flex;
     justify-content: space-between;
-background-color:rgb(201, 129, 140); font-size: 18px;
+background-color:$ColorPrincipal;
+ font-size: 18px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration: none;
 margin-top: 300px;
@@ -10,22 +11,29 @@ background:linear-gradient(to right, rgb(224, 181, 187),rgba(209, 175, 175, 0.5)
  }
                
  h5{
-     color:rgb(219, 81, 104);
+     color:$ColorSecundario;
 
  }
-a[href="http://www.facebook.com"]{
+a[href="http://www.facebook.com/pinkaa.uy"]{
     text-decoration: none;
-   color:rgb(201, 129, 140);    
-}
+   color:$ColorPrincipal;    
+   &:hover{
+       color:$ColorSecundario;
+   }
+   }
 
-a[href="http://www.instagram.com"]{
+
+a[href="http://www.instagram.com/pinkaa.uy"]{
     text-decoration: none;
-      color:rgb(201, 129, 140);
+      color:$ColorPrincipal;
+      &:hover{
+        color:$ColorSecundario;
+    }
      
 }
 
 .contactos{
     text-decoration: none;
-    color:rgb(201, 129, 140);
+    color:$ColorPrincipal;
 }
 

@@ -10,16 +10,15 @@
     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     grid-area:1/1/3/3;
     place-self: center;
-    color:rgb(219, 81, 104);
-    font-size: 40px;
+    color:$ColorPrincipal;
+    font-size: 50px;
 }
 
 .novedades-item{
-    @include prueba (rgb(201, 129, 140));
-  
+    cursor:pointer;
     width: 280px;
     height: 230px;
-  
+    border-radius: 20px;
     transition:all 500ms ease;
 }
 
@@ -29,5 +28,6 @@
 
 
 svg{
-    stroke:rgb(201,129,140);
+    stroke:$ColorPrincipal;
 }
+
